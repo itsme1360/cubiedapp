@@ -166,7 +166,7 @@ export default function Staked() {
                       'justifyContent':'space-between'
                     }}>
                     {cubies.length}
-                    <div>{cubeIcon} &nbsp; CUBIE</div>
+                    <div> CUBIE</div>
                     </div>
                     <h6 className='mt-2'>CUBE Balance: </h6>
                     <div style={{
