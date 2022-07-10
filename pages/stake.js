@@ -156,7 +156,7 @@ export default function Staked() {
                   </Col>
                   <hr className='my-2'/>
                   <Col>
-                    <h6>Number Staked:</h6>
+                    <h6>NFT Staked:</h6>
                     <div style={{
                       'backgroundColor':'#00224170',
                       'color':'white',
@@ -168,7 +168,7 @@ export default function Staked() {
                     {cubies.length}
                     <div>{cubeIcon} &nbsp; CUBIE</div>
                     </div>
-                    <h6 className='mt-2'>Cube Balance: </h6>
+                    <h6 className='mt-2'>CUBE Balance: </h6>
                     <div style={{
                       'backgroundColor':'#00224170',
                       'color':'white',
@@ -187,7 +187,7 @@ export default function Staked() {
           </div>
         </div>
         <div className='card card-body'>
-          <h4>You Staked Cubies</h4>
+          <h4>Staked Cubies</h4>
           <hr />
           <Row>
             {cubies.map((cubie, i) => {
