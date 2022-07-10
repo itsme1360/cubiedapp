@@ -149,7 +149,7 @@ export default function Accounts() {
 
         <div className="Banner">
           <h2>Your Minted Cubies</h2>
-          <p>Address: {userAddress} </p>
+          <p><strong>Address: {userAddress} </strong></p>
         </div>
 
         <Row>
